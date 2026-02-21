@@ -57,3 +57,34 @@ Prenez le temps de lire, d'analyser voir même de bidouiller le fichier "app.py"
 # Publier vos modifications sur votre propre dépôt GitHub
 Une fois que vous avez terminé de travailler sur les consignes du projet et que vous souhaitez publier vos modifications dans votre dépôt, vous devrez suivre les étapes décrites dans la section « Validation (commit) de vos modifications » de [cette ressource](https://docs.github.com/fr/codespaces/developing-in-a-codespace/using-source-control-in-your-codespace#validation-commit-de-vos-modifications
 ).
+
+## Résultats de l’analyse
+
+### 1. Chiffre d’affaires total
+Le chiffre d’affaires total de l’entreprise est de **44 825 €**.
+
+### 2. Ventes par produit (quantité totale)
+- Produit A : 1 750 unités vendues  
+- Produit B : 1 055 unités vendues  
+- Produit C : 575 unités vendues  
+
+Le produit A est le plus vendu, tandis que le produit C est le moins performant en volume.
+
+### 3. Chiffre d’affaires par produit
+- Produit A : 17 500 €  
+- Produit B : 15 825 €  
+- Produit C : 11 500 €  
+
+Le produit A génère le chiffre d’affaires le plus élevé.
+
+### 4. Chiffre d’affaires par région
+- Région Nord : 20 725 €  
+- Région Sud : 24 000 €  
+
+La région Sud est la plus performante en termes de chiffre d’affaires.
+
+## Conclusion
+
+L’analyse montre que le produit A est le plus performant, aussi bien en quantité vendue qu’en chiffre d’affaires.  
+Le produit C est le moins rentable et pourrait faire l’objet d’une stratégie d’amélioration.  
+Au niveau géographique, la région Sud génère plus de revenus que la région Nord.
