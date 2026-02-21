@@ -50,3 +50,16 @@ fig2 = px.bar(
 fig2.write_html("ca_par_produit.html")
 
 print("✅ OK : ventes_par_produit.html et ca_par_produit.html générés")
+
+# 3) Chiffre d'affaires par région
+
+ca_par_region = df.groupby("region")["chiffre_affaires"].sum().reset_index()
+
+fig_region = px.bar(
+    ca_par_region,
+    x="region",
+    y="chiffre_affaires",
+    title="Chiffre d'affaires par région"
+)
+
+fig_region.write_html("ca_par_region.html")
